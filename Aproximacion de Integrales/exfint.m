@@ -36,7 +36,6 @@ function encabezado
     disp('____________________________________________________________________________');
     disp('UNIVERSIDAD DE LAS FUERZAS ARMADAS ESPE - SANGOLQUI');
     disp('METODOS NUMERICOS PARA INGENIERIA DE SOFTWARE');
-    disp('NRC: 2797');
     disp('M�TODOS DE INTEGRACI�N');
     disp('ELABORADO POR: LENIN BASANTES');
     disp('____________________________________________________________________________');
