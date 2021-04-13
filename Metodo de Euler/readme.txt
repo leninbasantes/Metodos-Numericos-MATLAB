@@ -1,0 +1,1 @@
+La funcion de fedo.m contiene el proceso para euler y euler mejorado para la N-esima, utilizando ode45 funcion mismo de matlab
