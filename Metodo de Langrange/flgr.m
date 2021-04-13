@@ -12,7 +12,6 @@ if (str=='Y')%condicion valida para poder importar los datos de la tabla del exc
     disp('____________________________________________________________________________');
     disp('UNIVERSIDAD DE LAS FUERZAS ARMADAS ESPE - SANGOLQUI');
     disp('METODOS NUMERICOS PARA INGENIERIA DE SOFTWARE');
-    disp('NRC: 2797');
     disp('INTERPOLACION DE LAGRANGE');
     disp('ELABORADO POR: LENIN BASANTES');
     disp('____________________________________________________________________________');
