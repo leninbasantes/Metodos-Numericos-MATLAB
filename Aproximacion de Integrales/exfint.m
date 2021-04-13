@@ -8,7 +8,7 @@ b=input('Ingrese el valor del intervalo minimo "b":');
 %Comprueba que el valor de b sea mayor q el valor de 
 if b<a
     clc
-    disp('WARNING!!! El límite b debe ser mayor que el límite a');
+    disp('WARNING!!! El lï¿½mite b debe ser mayor que el lï¿½mite a');
     a=input('Ingrese el valor del intervalo minimo "a":');
     b=input('Ingrese el valor del intervalo minimo "b":');   
 end
@@ -27,7 +27,7 @@ e=input('Ingrese el valor de epsilon:');
 %Comprueba si el valor de n es mayor que 0
 while e<a || e>b
     clc;
-    disp('El valor de Épsilon debe estar entre a y b');
+    disp('El valor de ï¿½psilon debe estar entre a y b');
     e=input('Ingrese el valor de epsilon:');
 end
 efint(f,a,b,n,e);
@@ -37,8 +37,8 @@ function encabezado
     disp('UNIVERSIDAD DE LAS FUERZAS ARMADAS ESPE - SANGOLQUI');
     disp('METODOS NUMERICOS PARA INGENIERIA DE SOFTWARE');
     disp('NRC: 2797');
-    disp('MÉTODOS DE INTEGRACIÓN');
-    disp('ELABORADO POR: LENIN BASANTES, WENDY LLULLUNA, ANGEL CARDENAS');
+    disp('Mï¿½TODOS DE INTEGRACIï¿½N');
+    disp('ELABORADO POR: LENIN BASANTES');
     disp('____________________________________________________________________________');
     disp('                               INGRESO DE DATOS                             ');
 end
