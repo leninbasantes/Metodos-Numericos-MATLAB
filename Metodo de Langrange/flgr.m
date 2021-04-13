@@ -1,4 +1,4 @@
-function lagrange
+function flgr
 prompt = 'Se tiene que importa la matriz de excel? Y/N [Y]: ';
 str = input(prompt,'s');%se lanza un mensaje para poder importar la tabla del excel 
 while((isempty(str))||(str~='Y')&&(str~='N'))%condicion para verificar la respuesta del mensaje para poder importar la tabla
@@ -12,6 +12,7 @@ if (str=='Y')%condicion valida para poder importar los datos de la tabla del exc
     disp('____________________________________________________________________________');
     disp('UNIVERSIDAD DE LAS FUERZAS ARMADAS ESPE - SANGOLQUI');
     disp('METODOS NUMERICOS PARA INGENIERIA DE SOFTWARE');
+    disp('NRC: 2797');
     disp('INTERPOLACION DE LAGRANGE');
     disp('ELABORADO POR: LENIN BASANTES');
     disp('____________________________________________________________________________');
@@ -57,7 +58,7 @@ Pn = simplify(Pn);
 hold on
 fplot(Pn);
 plot(X,Y,'g*');
-title('Gráfica Polinomio de Lagrange')
+title('Gr�fica Polinomio de Lagrange')
 xlabel('Eje x');
 ylabel('Eje y');
 hold off
