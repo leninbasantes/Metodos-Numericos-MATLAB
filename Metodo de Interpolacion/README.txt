@@ -1,0 +1,1 @@
+Metodo de interpolacion de newton y langrange para la obtencion de un polinomio
